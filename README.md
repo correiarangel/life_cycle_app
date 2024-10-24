@@ -1,4 +1,4 @@
-### Hi there Hello welcome ;]  `<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">`
+### Hi there Hello welcome ;] 
 
 [Linkedin Always On](https://www.linkedin.com/in/marcos-fabiano-correia-rangel/)
 
@@ -12,7 +12,7 @@ The **life_cycle_app** was created for educational purposes to demonstrate the l
 
 **Marcos Rangel**
 
-**Full article** -> [Understanding the Widget Lifecycle in Flutter](https://medium.com/@okcomputer.use.linux/entendendo-o-ciclo-de-vida-de-widgets-no-flutter-123284ff381e) 
+**Full article** -> [Understanding the Widget Lifecycle in Flutter](https://medium.com/@okcomputer.use.linux/entendendo-o-ciclo-de-vida-de-widgets-no-flutter-123284ff381e)
 
 ---
 
@@ -39,33 +39,33 @@ The life cycle of a widget in Flutter can be visualized in several main stages. 
 
 ```
              StateWidget
-                     
+                   
                     createState()
                          | 
                          V
                     initState() 
                          |
                          V
-                     
+                   
                 didChangeDependencies()
                          |
                          V 
-                            
+                          
                        state()   <--------------|
                          |                      |   
                          V                      |
            |---------> Build()                  |  
-           |             |                      |                                          
+           |             |                      |                                        
            |             V                      | 
            |                                    |
 didUpdateWidget() <-- Widget() --> setState()---|
                          |
                          V
-                     
+                   
                     Deactivate()
                          |
                          V
-                     
+                   
                      dispose()
 
 ```
@@ -75,7 +75,6 @@ didUpdateWidget() <-- Widget() --> setState()---|
 - flutter clean
 - flutter pub get
 - flutter run
-
 
 ## Flutter Getting Started
 
